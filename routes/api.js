@@ -5,7 +5,7 @@ router.get('/', function (req, res) {
     res.render('api')
 })
 
-// POST http://hostname/api/get
+// GET http://hostname/api/get
 router.get(`/get`, function (req, res) {
     res.send(req.query); // return query params
 });
