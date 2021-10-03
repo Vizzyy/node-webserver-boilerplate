@@ -1,0 +1,28 @@
+html {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+body {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  height: 100%;
+  color: black;
+  border-radius: 10px;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}

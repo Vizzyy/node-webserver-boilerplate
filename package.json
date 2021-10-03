@@ -4,7 +4,8 @@
   "description": "Boilerplate Node Webserver",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Sorry no tests\""
+    "test": "echo \"Sorry no tests\"",
+    "start": "node main.js"
   },
   "keywords": [
     "node",
@@ -12,5 +13,9 @@
     "webserver"
   ],
   "author": "vizzyy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }
