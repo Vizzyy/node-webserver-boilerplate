@@ -1,0 +1,16 @@
+{
+  "name": "webserver-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate Node Webserver",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Sorry no tests\""
+  },
+  "keywords": [
+    "node",
+    "boilerplate",
+    "webserver"
+  ],
+  "author": "vizzyy",
+  "license": "ISC"
+}
